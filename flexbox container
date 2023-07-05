@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="card">
+    <h2 class="card-title">Card 1</h2>
+    <img src="image1.jpg" alt="Image 1" class="card-image">
+    <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Card 2</h2>
+    <img src="image2.jpg" alt="Image 2" class="card-image">
+    <p class="card-content">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Card 3</h2>
+    <img src="image3.jpg" alt="Image 3" class="card-image">
+    <p class="card-content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 16px;
+  color: #666;
+}
